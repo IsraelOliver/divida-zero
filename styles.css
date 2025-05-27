@@ -20,7 +20,7 @@
 }
 
 .imgBook {
-    height: 650px;
+    height: 40rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -77,4 +77,35 @@
 .rightContent a:hover {
     background: #202020;
     color: #FFBF00;
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        background: #FFBF00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        border: 10px solid #202020;
+        padding: 50px 0;
+    }
+
+    .imgBook {
+        height: 30rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .theLine {
+        height: 0;
+        margin: 40px;
+        width: 25rem;
+        border-bottom: 2px solid #202020;
+    }
+
+    .rightContent a {
+        margin: 20px 20px;
+    }
+
 }
