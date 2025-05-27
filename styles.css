@@ -19,6 +19,7 @@
     border: 10px solid #202020;
 }
 
+/*sessão 01 */
 .imgBook {
     height: 40rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -53,6 +54,15 @@
     font-optical-sizing: auto;
 }
 
+.buyNow {
+    background-color: #202020;
+    color: #FFBF00;
+}
+
+.reviewButton {
+    color: #202020;
+}
+
 .rightContent a {
     display: inline-flex;
     align-items: center;
@@ -68,7 +78,6 @@
     transition: .4s;
     cursor: pointer;
     text-decoration: none;
-    color: #202020;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -79,6 +88,81 @@
     color: #FFBF00;
 }
 
+/*sessão 02 */
+#contentBack {
+    background: #202020;
+}
+
+.leftContent2 {
+    color: #fff;
+}
+
+.rightContent2 {
+    color: #fff;
+}
+
+.leftContent2 h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.leftContent2 h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.leftContent2 p {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.leftContent2 ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.leftContent2 li {
+    margin-left: 10px;
+}
+
+.leftContent2 h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.leftContent2 a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    min-height: 20px;
+    padding: 15px;
+    border: 2px solid #FFBF00;
+    border-radius: 30px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: none;
+    color: #202020;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    background: #FFBF00;
+    margin-bottom: 20px;
+}
+
+.leftContent2 a:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #202020;
+    font-weight: bold;
+}
+
+/*sessão celular */
 @media screen and (max-width: 767px) {
     .content {
         background: #FFBF00;
