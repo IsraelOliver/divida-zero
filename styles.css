@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Play", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: #FFBF00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 20px);
+    border: 10px solid #202020;
+}
+
+.imgBook {
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.theLine {
+    height: 40rem;
+    border-left: 2px solid #202020;
+}
+
+.rightContent p {
+    color: #202020;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.rightContent h1 {
+    font-weight: bold;
+    font-size: 100px;
+    color: #202020;
+    padding: 4rem 0;
+    padding-bottom: 2rem;
+}
+
+.rightContent h2 {
+    color: #202020;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.rightContent a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    min-height: 20px;
+    padding: 15px;
+    border: 2px solid #202020;
+    border-radius: 30px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: none;
+    color: #202020;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+.rightContent a:hover {
+    background: #202020;
+    color: #FFBF00;
+}
