@@ -12,7 +12,7 @@
 .content {
     background: #FFBF00;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     height: calc(100vh - 20px);
@@ -28,6 +28,14 @@
 .theLine {
     height: 40rem;
     border-left: 2px solid #202020;
+}
+
+.rightContent {
+    width: 25%;
+}
+
+.leftContent {
+    width: 25%;
 }
 
 .rightContent p {
@@ -95,10 +103,12 @@
 
 .leftContent2 {
     color: #fff;
+    width: 25%;
 }
 
 .rightContent2 {
     color: #fff;
+    width: 25%;
 }
 
 .leftContent2 h1 {
@@ -162,7 +172,12 @@
     font-weight: bold;
 }
 
-.rightContent2 {
+.theLine2 {
+    height: 40rem;
+    border-left: 2px solid #FFBF00;
+}
+
+.container {
     position: relative;
     width: 100%;
     display: flex;
@@ -170,26 +185,31 @@
     align-items: center;
 }
 
+#pag0 {
+    opacity: 0;
+    height: 40rem;
+}
+
 #pag1, #pag2, #pag3 {
     position: absolute;
     transition: transform 0.3s ease;
-    height: 35rem;
+    height: 40rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #pag1 {
     z-index: 3;
-    top: -300px;
+    top: 10px;
 }
 
 #pag2 {
     z-index: 2;
-    top: -300px;
+    top: 10px;
 }
 
 #pag3 {
     z-index: 1;
-    top: -300px;
+    top: 10px;
 }
 
 /*sessão celular */
@@ -218,7 +238,38 @@
         border-bottom: 2px solid #202020;
     }
 
+    .theLine2 {
+        border-bottom: 2px solid #FFBF00;
+        margin: 40px;
+        width: 20rem;
+        height: 0;
+    }
+
+    .leftContent {
+        width: fit-content;
+    }
+
+    .rightContent {
+        width: fit-content;
+    }
+
+    .leftContent2 {
+        width: fit-content;
+    }
+
+    .rightContent2 {
+        width: fit-content;
+    }
+
     .rightContent a {
         margin: 20px 20px;
+    }
+
+    #pag1 {
+        height: 30rem;
+    }
+
+    #pag2, #pag3 {
+        opacity: 0;
     }
 }
