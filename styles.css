@@ -246,19 +246,7 @@
         height: 0;
     }
 
-    .leftContent {
-        width: fit-content;
-    }
-
-    .rightContent {
-        width: fit-content;
-    }
-
-    .leftContent2 {
-        width: fit-content;
-    }
-
-    .rightContent2 {
+    .leftContent, .rightContent, .leftContent2, .rightContent2 {
         width: fit-content;
     }
 
