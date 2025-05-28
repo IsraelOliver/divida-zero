@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+:root {
+    --cor-primaria: #f6c954;
+    --cor-secundaria: #221f1a;
+    --cor-white: #fff;
+}
+
 * {
     font-family: "Play", system-ui;
     font-weight: 400;
@@ -10,13 +16,13 @@
 }
 
 .content {
-    background: #FFBF00;
+    background: var(--cor-primaria);
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     height: calc(100vh - 20px);
-    border: 10px solid #202020;
+    border: 10px solid var(--cor-secundaria);
 }
 
 /*sessão 01 */
@@ -27,7 +33,7 @@
 
 .theLine {
     height: 40rem;
-    border-left: 2px solid #202020;
+    border-left: 2px solid var(--cor-secundaria);
 }
 
 .rightContent {
@@ -39,7 +45,7 @@
 }
 
 .rightContent p {
-    color: #202020;
+    color: var(--cor-secundaria);
     font-size: 20px;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -48,13 +54,13 @@
 .rightContent h1 {
     font-weight: bold;
     font-size: 100px;
-    color: #202020;
+    color: var(--cor-secundaria);
     padding: 4rem 0;
     padding-bottom: 2rem;
 }
 
 .rightContent h2 {
-    color: #202020;
+    color: var(--cor-secundaria);
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 2rem;
@@ -63,22 +69,22 @@
 }
 
 .buyNow {
-    background-color: #202020;
-    color: #FFBF00;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 .reviewButton {
-    color: #202020;
+    color: var(--cor-secundaria);
 }
 
 .rightContent a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 150px;
+    min-width: 100px;
     min-height: 20px;
     padding: 15px;
-    border: 2px solid #202020;
+    border: 2px solid var(--cor-secundaria);
     border-radius: 30px;
     margin: 0 20px;
     font-weight: bold;
@@ -92,22 +98,22 @@
 }
 
 .rightContent a:hover {
-    background: #202020;
-    color: #FFBF00;
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 /*sessão 02 */
 #contentBack {
-    background: #202020;
+    background: var(--cor-secundaria);
 }
 
 .leftContent2 {
-    color: #fff;
+    color: var(--cor-white);
     width: 25%;
 }
 
 .rightContent2 {
-    color: #fff;
+    color: var(--cor-white);
     width: 25%;
 }
 
@@ -149,7 +155,7 @@
     min-width: 150px;
     min-height: 20px;
     padding: 15px;
-    border: 2px solid #FFBF00;
+    border: 2px solid var(--cor-primaria);
     border-radius: 30px;
     margin: 0 20px;
     font-weight: bold;
@@ -157,24 +163,24 @@
     transition: .4s;
     cursor: pointer;
     text-decoration: none;
-    color: #202020;
+    color: var(--cor-secundaria);
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    background: #FFBF00;
+    background: var(--cor-primaria);
     margin-bottom: 20px;
 }
 
 .leftContent2 a:hover {
-    background: #fff;
-    border-color: #fff;
+    background: var(--cor-white);
+    border-color: var(--cor-white);
     color: #202020;
     font-weight: bold;
 }
 
 .theLine2 {
     height: 40rem;
-    border-left: 2px solid #FFBF00;
+    border-left: 2px solid var(--cor-primaria);
 }
 
 .container {
@@ -215,14 +221,14 @@
 /*sessão celular */
 @media screen and (max-width: 767px) {
     .content {
-        background: #FFBF00;
+        background: var(--cor-primaria);
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
         height: 100%;
-        border: 10px solid #202020;
+        border: 10px solid var(--cor-secundaria);
         padding: 50px 20px;
     }
 
@@ -235,11 +241,11 @@
         height: 0;
         margin: 40px;
         width: 20rem;
-        border-bottom: 2px solid #202020;
+        border-bottom: 2px solid var(--cor-secundaria);
     }
 
     .theLine2 {
-        border-bottom: 2px solid #FFBF00;
+        border-bottom: 2px solid var(--cor-primaria);
         margin: 40px;
         width: 20rem;
         height: 0;
