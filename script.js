@@ -5,9 +5,9 @@ let pag3 = document.getElementById("pag3");
 let pages = document.querySelector(".rightContent2");
 
 pages.addEventListener("mouseenter", () => {
-    pag1.style.transform = "translateX(-10px)";
-    pag2.style.transform = "translateX(40px)";
-    pag3.style.transform = "translateX(80px)";
+    pag1.style.transform = "translateX(-30px)";
+    pag2.style.transform = "translateX(60px)";
+    pag3.style.transform = "translateX(120px)";
 });
 
 pages.addEventListener("mouseleave", () => {

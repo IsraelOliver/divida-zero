@@ -173,23 +173,23 @@
 #pag1, #pag2, #pag3 {
     position: absolute;
     transition: transform 0.3s ease;
-    height: 40rem;
+    height: 35rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #pag1 {
     z-index: 3;
-    top: -30px;
+    top: -300px;
 }
 
 #pag2 {
     z-index: 2;
-    top: -15px;
+    top: -300px;
 }
 
 #pag3 {
     z-index: 1;
-    top: 0;
+    top: -300px;
 }
 
 /*sessão celular */
