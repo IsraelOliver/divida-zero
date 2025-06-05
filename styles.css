@@ -162,14 +162,14 @@
     color: var(--cor-secundaria);
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    background: var(--cor-primaria);
+    background: #ffbf00;
     margin-bottom: 20px;
 }
 
 .leftContent2 a:hover {
     background: var(--cor-white);
     border-color: var(--cor-white);
-    color: #202020;
+    color: var(--cor-secundaria);
     font-weight: bold;
 }
 
