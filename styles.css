@@ -8,11 +8,11 @@
 }
 
 * {
-    font-family: "Play", system-ui;
     font-weight: 400;
     font-style: normal;
     margin: 0;
     padding: 0;
+    font-family: "Quicksand", sans-serif;
 }
 
 .content {
@@ -39,6 +39,9 @@
 .rightContent {
     width: 25%;
     color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .leftContent {
@@ -46,56 +49,39 @@
     color: var(--cor-secundaria);
 }
 
+.rightContent h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .rightContent p {
     font-size: 20px;
     font-weight: bold;
-    font-family: "Quicksand", sans-serif;
-}
-
-.rightContent h1 {
-    font-weight: bold;
-    font-size: 100px;
-    padding: 3rem 0;
-    padding-bottom: 2rem;
-}
-
-.rightContent h2 {
-    font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 2rem;
-    font-family: "Quicksand", sans-serif;
+    margin-bottom: 20px;
 }
 
 .buyNow {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
-}
-
-.reviewButton {
-    color: var(--cor-secundaria);
-}
-
-.rightContent a {
     align-items: center;
     border: 2px solid var(--cor-secundaria);
     border-radius: 30px;
     cursor: pointer;
-    display: inline-flex;
+    color: var(--cor-white);
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     font-weight: bold;
-    justify-content: center;
-    min-width: 100px;
-    min-height: 20px;
     padding: 15px;
-    margin: 0 20px;
+    margin: 0px 20px;
     transition: .4s;
     text-decoration: none;
+    background: var(--cor-secundaria);;
 }
 
 .rightContent a:hover {
     background: var(--cor-secundaria);
     color: var(--cor-primaria);
+    border: 2px solid var(--cor-white);
+    font-size: 17px;
 }
 
 /*sessão 02 */
